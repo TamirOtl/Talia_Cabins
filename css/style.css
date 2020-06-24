@@ -1,0 +1,773 @@
+* {
+	margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+ direction: rtl;
+ 
+}
+html {
+	height: 100%;
+ background-size: cover;
+    
+}
+body{
+  background-color: linen;
+}
+
+
+  /*jumbotron css*/
+ .jumbotronBack{
+  background-color: rgb(171, 140, 140);
+  margin-top:5px ;
+
+ }
+ .row{
+   padding: 0;
+ }
+  .JumbotronIMG{
+    width:100%;
+    height:100% ;
+    padding: 0;
+    
+  }
+  .col-sm-4{
+    padding:5px;
+  }
+  .col-sm-8,.col-sm-2,.col-sm-6,.col-sm-7{
+    padding:0;
+  }
+  .JumbotronTitle{
+    width: 100%;
+    height:100%;
+    text-align: center;
+    font-family: museum-aaa-400,sans-serif;
+    font-size: 40px;
+  }
+  .JumbotronTXT{
+    width: 100%;
+    height:100%;
+    text-align: right;
+  line-height: 45px;
+    font-family: museum-aaa-400,sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+   
+  }
+.a{
+  z-index: 2;
+  cursor: pointer
+}
+    /*Navbar css*/
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+     
+    }
+
+  .navbar-inverse {
+    background-color: #D8EDDF !important;
+    width:100%;
+    
+  }
+  .dropdown{
+    background-color: #D8EDDF !important;
+  
+    color: rgba(171, 140, 140, 1) !important;
+  }
+  a.dropdown-toggle{
+    background-color: #D8EDDF !important;
+    direction: rtl;
+    color: rgba(171, 140, 140, 1) !important;
+    font-weight: bold;
+  }
+  .dropdown-menu{
+    background-color: #D8EDDF !important;
+    direction: rtl;
+    color: rgba(171, 140, 140, 1) !important;
+    font-weight: bold;
+  }
+.dropdown-menu>li>a{
+  background-color: #D8EDDF !important;
+  direction: rtl;
+  color: rgba(171, 140, 140, 1) !important;
+  font-weight: bold;
+}
+.dropdown-menu>li>a:hover{
+  background-color:lightgreen !important ;
+  color: rgba(171, 140, 140, 1) !important;
+  direction: rtl;
+  font-weight: bold;
+}
+.caret{
+  
+  
+  color: rgba(171, 140, 140, 1) !important;
+}
+  .navbar-inverse .navbar-brand{
+    color:  rgba(171, 140, 140, 1);
+    font-weight: bold;
+  }
+  .navbar-inverse .navbar-nav>li>a{
+    color: rgba(171, 140, 140, 1);
+    font-weight: bold;
+  }
+  .navbar-nav>li>a:hover{
+    
+    background-color:lightgreen !important ;
+    color: rgba(171, 140, 140, 1) !important;
+  }
+  .active a{
+    background-color:lightgreen !important ;
+    color: rgba(171, 140, 140, 1) !important;
+}
+.dropdown-toggle{
+  background-color:lightgreen !important ;
+  color: rgba(171, 140, 140, 1) !important;
+}
+ .navbar-brand:hover{
+  background-color:lightgreen !important ;
+  color: rgba(171, 140, 140, 1) !important;
+  
+
+}
+.navbar-brand{
+  height: 50px;
+}
+
+/*HOME PAGE*/
+.carouselCss{
+  width:"100%";
+  height:"auto";
+}
+
+.welcome{
+  color:#414141;
+  font-size: 40px;
+  text-align: center;
+  font-family: museum-aaa-400,sans-serif;
+
+}
+.welcomeTXT{
+  color:#414141;
+  font-size: 20px;
+  text-align: center;
+  font-family: museum-aaa-400,sans-serif;
+
+}
+.cabin{
+  background-color:	rgb(95, 156, 110)		;
+  width: 100%;
+  margin-right: 5px;
+  direction: rtl;
+  text-align: right;
+  font-size: 18px;
+  font-family: museum-aaa-400,sans-serif;
+  
+}
+.cabin2{
+  background-color:rgb(95, 156, 110)				;
+  width: 290px;
+  height: 300px;
+  direction: rtl;
+  text-align: right;
+  font-size: 18px;
+  font-family: museum-aaa-400,sans-serif;
+  padding: 0;
+}
+.flex-container {
+  display: flex;
+  justify-content: right;
+  width: 100%;
+}
+
+.flex-container > div {
+  background-color: #008B8B		;
+  width: 100%;
+  text-align: right;
+  font-size: 18px;
+  font-family: museum-aaa-400,sans-serif;
+}
+
+.more_inforamtion{
+  color:white;
+  background-color:  rgba(171, 140, 140, 1) !important;
+  float: left;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  width: 120px;
+  
+}
+#temp{
+  font-size:18px;
+}
+#myImg{
+  width:50px;
+  height: 50px;
+}
+.more_inforamtion:hover{
+  color:white !important;
+  background-color: rgb(8, 185, 31) !important;
+}
+.more_inforamtionClick{
+  color:white;
+  background-color:  rgba(171, 140, 140, 1) !important;
+  float: center;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  width: 35%;
+  height: 40px;
+  
+}
+.more_inforamtionClick:hover{
+  color:white !important;
+  background-color:  rgb(8, 185, 31)  !important;
+  cursor: pointer;
+}
+.details{
+  color:#8B0000;
+  text-align: center;
+  font-size: 24px;
+  font-family: museum-aaa-400,sans-serif;
+  
+}
+.li{
+  color:white;
+  margin-right: 25px;
+  
+}
+
+/*SPA PAGE*/
+
+.spa_Treatment{
+  background-color: #D8EDDF !important;
+  font-family: asimon-aaa-400, sans-serif;
+  font-size: 18px;
+  padding: 5px;
+ 
+}
+.Cosmetic_Treatment{
+  background-color: #D8EDDF !important;
+  font-family: asimon-aaa-400, sans-serif;
+  font-size: 18px;
+  padding: 10px;
+}
+.ul{
+  padding-right: 25px;
+  padding-left: 15px;
+}
+
+.box1{
+  background-image: url("../Images/single-spa-pack.jpg") !important;
+ 
+  height: 400px;
+  padding: 70px;
+  -webkit-background-size:cover;
+  background-size: cover;
+  transition: all 1s ease-in-out;
+}
+
+.box3{
+ 
+  background-image: url("../Images/headMassage.png") !important;
+  -webkit-background-size:cover;
+  background-size: cover;
+  transition: all 1s ease-in-out;
+ 
+  height: 400px;
+  padding: 70px;
+  background-repeat: no-repeat;
+  
+}
+.box3:hover{
+  background-image: url("../Images/oil.jpg") !important;
+  
+  height: 400px;
+  padding: 70px;
+  -webkit-background-size:cover;
+  background-size: cover;
+  transition: all 1s ease-in-out;
+}
+.box1:hover{
+  background-image: url("../Images/stonemassage.jpg") !important;
+  -webkit-background-size:cover;
+  background-size: cover;
+  transition: all 1s ease-in-out;
+
+  height: 400px;
+  padding: 70px;
+  background-repeat: no-repeat;
+}
+.box2{
+  border: 3px solid white;
+  background-color:  rgba(171, 140, 140, 1) !important;
+  color: white;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  margin: 20px;
+  font-family: museum-aaa-400,sans-serif;
+  font-size: 19px;
+}
+.carousel-inner{
+  width:100%;
+  max-height: 100% !important;
+  margin-bottom: 15px;
+}
+
+
+/*Olive Page*/
+.modalTXT{
+  font-weight: bold;
+  font-family: asimon-aaa-400, sans-serif;
+  font-size: 18px;
+}
+
+/*cabin Page*/
+.cabinTitle{
+  width: 100%;
+  height:100%;
+  text-align: center;
+  font-family: museum-aaa-400,sans-serif;
+  font-size: 40px;
+}
+.cabinTXT{
+  width: 100%;
+  height:100%;
+  text-align: right;
+line-height: 35px;
+  font-family: museum-aaa-400,sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  padding-right: 30px;
+}
+.cabinAGOZ{
+  background-image: url("../Images/Ago1z.jpg") !important;
+  -webkit-background-size:cover;
+  background-size: cover;
+  transition: all 1s ease-in-out;
+  height:350px;
+  
+  padding: 70px;
+  
+}
+.cabinAGOZ:hover{
+  background: url("../Images/pools.png") !important ;
+  -webkit-background-size:cover;
+  background-size: cover;
+  height: 350px;
+  
+  padding: 70px;
+  transition: all 1s ease-in-out;
+  
+}
+
+.cabinOlive{
+  background-image: url("../Images/זית6.jpg") !important;
+  -webkit-background-size:cover;
+  background-size: cover;
+  transition: all 1s ease-in-out;
+  height: 350px;
+  
+  padding: 70px;
+  
+}
+.cabinOlive:hover{
+  background: url("../Images/nightSpa.png") !important ;
+  -webkit-background-size:cover;
+  background-size: cover;
+  height: 350px;
+  
+  padding: 70px;
+  transition: all 1s ease-in-out;
+  
+}
+.cabinSpa{
+  background-image: url("../Images/sauna.png") !important;
+  -webkit-background-size:cover;
+  background-size: cover;
+  transition: all 1s ease-in-out;
+  height: 350px;
+  
+  padding: 70px;
+  
+}
+.cabinSpa:hover{
+  background: url("../Images/oil.jpg") !important ;
+  -webkit-background-size:cover;
+  background-size: cover;
+  height: 350px;
+  
+  padding: 70px;
+  transition: all 1s ease-in-out;
+  
+}
+
+.boxCabin{
+  background-color: #D8EDDF !important;
+  font-family: asimon-aaa-400, sans-serif;
+  font-size: 18px;
+  padding: 10px;
+  margin: 10px;
+  border: 3px solid;
+  
+}
+.cabinInvite{
+  font-family: asimon-aaa-400, sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+.liCabin{
+  color:black;
+  margin-right: 25px;
+  
+}
+
+/*contact us*/
+.google-maps {
+  position: relative;
+  padding-bottom: 35%;  
+  height: 0;
+  overflow: hidden;
+}
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+
+
+/* Style the counter cards */
+.card {
+  box-shadow: 18px 18px 18px 18px rgba(0, 0, 0, 0.2);
+ margin-left: 20%;
+ margin-right: 20%;
+ padding-top: 2%;
+ padding-bottom: 2%;
+  font-family: asimon-aaa-400, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  background-color: #D8EDDF !important;
+}
+input[type=text],[type=tel] ,[type=email], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+  /* Add a gray background color and some padding to the footer */
+footer {
+  background-color:rgb(95, 156, 110)		;
+    padding-top: 25px ;
+    padding-right: 20px;
+    color:#292929;
+    width: 100%;
+    
+    letter-spacing: 0.05em;
+    font-size: 20px;
+    float: right;
+  }
+
+.mailto{
+  text-decoration: none;
+  color:#292929;
+  
+}
+.mailto:hover{
+  text-decoration: none;
+  color:#292929;
+}
+
+.fab .fa-facebook-f .pr-1{
+  font-size:66px;
+  background: #3B5998;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+/*Restaurnt pages*/
+.RestaurntPage{
+  color:white;
+  background-color:  rgba(139, 0, 0, 1) !important;
+  float: right;
+  font-family: museum-aaa-400, sans-serif;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+  font-size: 23px;
+  height:100px;
+  
+}
+.RestaurntPage:hover{
+  color:white !important;
+  background-color: rgb(8, 185, 31) !important;
+}
+.RestaurntPage2{
+  color:white;
+  background-color: rgb(8, 185, 31) !important;
+  
+  float: right;
+  font-family: museum-aaa-400, sans-serif;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+  font-size: 23px;
+  height:100px;
+  
+}
+.RestaurntPage2:hover{
+  color:white !important;
+  background-color:  rgba(139, 0, 0, 1) !important;
+}
+.page_title_restaurnt{
+  background-color:  rgba(171, 140, 140, 1) !important;
+  font-family: asimon-aaa-400, sans-serif;
+}
+.ul_Restaurant{
+  height:300px;
+  font-family: asimon-aaa-400, sans-serif;
+  font-size: 18px;
+  background-color: #D8EDDF !important;
+  line-height:56px;
+}
+.img_Restaurant{
+  height:290px;
+  margin: 0;
+}
+/*rosh pina */
+.container {
+  position: relative;
+  width: 100%;
+  
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height:  auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+
+  
+}
+
+.container:hover .overlay {
+  opacity: 0.7;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+ 
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-90%, -90%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.comment-wrapper .panel-body {
+  max-height:650px;
+  overflow:auto;
+  font-family: asimon-aaa-400, sans-serif;
+  font-size: 18px;
+}
+
+.comment-wrapper .media-list .media img {
+  width:100%;
+  height:64px;
+  border:2px solid #e5e7e8;
+  font-family: asimon-aaa-400, sans-serif;
+  font-size: 18px;
+}
+.media-list{
+  font-family: asimon-aaa-400, sans-serif;
+  font-size: 22px;
+}
+.comment-wrapper .media-list .media {
+  border-bottom:1px dashed #efefef;
+  margin-bottom:25px;
+  
+}
+.registration{
+  text-align: right;
+  margin-right: 37px;
+  padding-right: 37px;
+}
+.registration>h1{
+  text-align: center;
+  font-family: museum-aaa-400,sans-serif;
+  font-size: 40px;
+  margin-right: 37px;
+  padding-right: 37px;
+}
+.registration>p,ul{
+  text-align: right;
+  font-family: museum-aaa-400,sans-serif;
+  font-size: 18px;
+  
+}
+@media only screen and (max-width: 350px) {
+  .cabinIMG{
+    background-image: url("../Images/בריכה4.jpg") !important;
+    -webkit-background-size:cover;
+    background-size: cover;
+    transition: all 1s ease-in-out;
+    height: 300px;
+    padding: 70px;
+    margin-top: 100px;
+  }
+  .cabinIMG:hover{
+    background: url("../Images/פנים5.jpg") !important ;
+    height: 300px;
+    padding: 70px;
+    -webkit-background-size:cover;
+    background-size: cover;
+    transition: all 1s ease-in-out;
+  }
+  .google-maps {
+    position: relative;
+    padding-bottom: 75%;  
+    height: 0;
+    overflow: hidden;
+  }
+  .google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 60;
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .card>h3 {    
+    font-family: asimon-aaa-400, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    background-color: #D8EDDF !important;
+  }
+ 
+  .RestaurntPageSmall{
+    height:20px; 
+   
+    font-size:20px;
+    line-height:41px;
+  }
+  .img_Restaurant{
+    height:300px;
+    margin-top: 160px;
+  }
+  .ul_Restaurant{
+    height:480px;
+    font-family: asimon-aaa-400, sans-serif;
+    font-size: 18px;
+    background-color: #D8EDDF !important;
+  }
+  .img_Restaurant2{
+    height:300px;
+    margin-top: 195px;
+  }
+  .registration{
+    text-align: right;
+    direction: rtl;
+
+  }
+  .registration>h1{
+    text-align: center;
+    font-family: museum-aaa-400,sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .registration>p,ul{
+    text-align: right;
+    font-family: museum-aaa-400,sans-serif;
+    font-size: 18px;
+    
+  }
+  .registration>h3{
+    text-align: center;
+    font-family: museum-aaa-400,sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  .registration{
+    text-align: right;
+    padding: 18px;
+    margin: 0;
+  }
+  .registration>h1{
+    text-align: right;
+    font-family: museum-aaa-400,sans-serif;
+    font-size: 26px;
+    padding: 0;
+    font-weight: bold;
+
+  }
+  .registration>p,ul{
+    text-align: right;
+    font-family: museum-aaa-400,sans-serif;
+    font-size: 16px;
+   
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
