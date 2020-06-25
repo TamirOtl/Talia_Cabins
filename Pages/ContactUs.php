@@ -138,9 +138,10 @@ if(isset($_POST['submit'])){
 <nav class="navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header  navbar-right">
-      <a class="navbar-brand  " href="../Index.php">בקתות טליה</a>
+    <a  href="../Index.php"><img src="../Images/logo.png" 
+    class="logo"></a>
     </div>
-    <ul class="nav navbar-nav navbar-right">
+    <ul class="nav navbar-nav navbar-right"style="margin-top:4%;">
     
     <li class="active"><a href="ContactUs.php">צור קשר</a></li>
     <li ><a href="recommendation.php">המלצות</a></li>
@@ -170,7 +171,6 @@ if(isset($_POST['submit'])){
       echo"שלום ". $_SESSION['user'];
       echo' <span class="caret"></span></a>
       <ul class="dropdown-menu">
-      <li><a href="Pages/Restaurnt.php" style="text-align:right;"class="glyphicon glyphicon-user"> פרופיל אישי</a></li>
       <li><a href="../Logout.php" style="text-align:right;"class="glyphicon glyphicon-log-in"> התנתק</a></li>
       </ul>
     </li>';

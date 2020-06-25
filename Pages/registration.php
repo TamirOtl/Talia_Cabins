@@ -188,9 +188,10 @@ if(isset($_POST['submit'])){
 <nav class="navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header  navbar-right">
-      <a class="navbar-brand  " href="../Index.php">בקתות טליה</a>
+    <a  href="../Index.php"><img src="../Images/logo.png" 
+    class="logo"></a>
     </div>
-    <ul class="nav navbar-nav navbar-right">
+    <ul class="nav navbar-nav navbar-right"style="margin-top:4%;">
     
     <li ><a href="ContactUs.php">צור קשר</a></li>
     <li ><a href="recommendation.php">המלצות</a></li>
@@ -220,7 +221,6 @@ if(isset($_POST['submit'])){
       echo"שלום ". $_SESSION['user'];
       echo' <span class="caret"></span></a>
       <ul class="dropdown-menu">
-      <li><a href="Pages/Restaurnt.php" style="text-align:right;"class="glyphicon glyphicon-user"> פרופיל אישי</a></li>
       <li><a href="../Logout.php" style="text-align:right;"class="glyphicon glyphicon-log-in"> התנתק</a></li>
       </ul>
     </li>';
@@ -298,7 +298,7 @@ if(isset($_POST['submit'])){
   
   <div class="row ">
     <div class="col-sm-12 registration">
-    <h1 >הרשמה למועדון הלקוחות</h1>    
+    <h1 >הרשמה למועדון הנופשים</h1>    
     <p >
     שלום רב, אנו שמחים להזמינך להצטרף למועדון החברים של בקתות טליה. ההרגשה של להיות "אורח מועדף", התחושה הנעימה של להיות מכובד ורצוי, והפינוקים שיש רק לך ואין לאחרים.
     </p>
@@ -328,7 +328,7 @@ if(isset($_POST['submit'])){
     <li >זמן חלום רשאים למנוע כפל הטבות והנחות.</li>
     <li >זמן חלום שומרים לעצמם את הזכות לשנות את ההטבות ותנאי המועדון ללא כל הודעה מוקדמת.</li>
     <li >זמן חלום יהיו רשאים לבטל חברות של חבר במועדון אשר לא ינהג בהתאם לכללי ההתנהגות המקובלים בזמן חלום.</li>
-    <li >הטבות נוספות, בלעדי לחברי המועדון יפורסמו מעת – לעת באתר זה</li>
+    <li >ממימוש ההטבות בצימר </li>
     <ul>
     </div>
    

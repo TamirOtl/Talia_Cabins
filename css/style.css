@@ -85,11 +85,15 @@ body{
     direction: rtl;
     color: rgba(171, 140, 140, 1) !important;
     font-weight: bold;
+    border-radius: 20px;
+    border: 2px solid #ddd;
+    height:9%;
+    box-shadow: 5px;
   }
 .dropdown-menu>li>a{
   background-color: #D8EDDF !important;
   direction: rtl;
-  color: rgba(171, 140, 140, 1) !important;
+  color: #ab8c8c !important;
   font-weight: bold;
 }
 .dropdown-menu>li>a:hover{
@@ -97,11 +101,25 @@ body{
   color: rgba(171, 140, 140, 1) !important;
   direction: rtl;
   font-weight: bold;
+
+  
+}
+.logo{
+  height:100px;
+  width:100px;
+  padding:0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin:0;
+}
+.logo:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 .caret{
   
   
   color: rgba(171, 140, 140, 1) !important;
+  
 }
   .navbar-inverse .navbar-brand{
     color:  rgba(171, 140, 140, 1);
@@ -115,14 +133,21 @@ body{
     
     background-color:lightgreen !important ;
     color: rgba(171, 140, 140, 1) !important;
+    border-radius: 24px;
+    border: 1px solid #ddd;
+    box-shadow: 15px;
   }
   .active a{
     background-color:lightgreen !important ;
     color: rgba(171, 140, 140, 1) !important;
+    border-radius: 24px;
+    border: 2px solid #ddd;
+    box-shadow: 15px;
 }
 .dropdown-toggle{
   background-color:lightgreen !important ;
   color: rgba(171, 140, 140, 1) !important;
+ 
 }
  .navbar-brand:hover{
   background-color:lightgreen !important ;

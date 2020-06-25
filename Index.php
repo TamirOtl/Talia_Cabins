@@ -54,8 +54,11 @@ if ($conn->connect_error) {
   if(mysqli_num_rows($result) > 0){
     $find=true;
   }
-  else
-  $find=false;
+  else{
+    
+    $find=false;
+  }
+  
 
   return $find;
 }
@@ -78,10 +81,10 @@ if(isset($_POST['submit'])){
 <nav class="navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header  navbar-right">
-      <a class="navbar-brand " href="Index.php">בקתות טליה</a>
+      <a  href="Index.php" ><img src="Images/logo.png" class="logo" alt="logo"></a>
       
     </div>
-    <ul class="nav navbar-nav navbar-right">
+    <ul class="nav navbar-nav navbar-right"style="margin-top:4%;">
     
     <li ><a href="Pages/ContactUs.php">צור קשר</a></li>
     <li ><a href="Pages/recommendation.php">המלצות</a></li>
@@ -111,7 +114,6 @@ if(isset($_POST['submit'])){
       echo"שלום ". $_SESSION['user'];
       echo' <span class="caret"></span></a>
       <ul class="dropdown-menu">
-        <li><a href="Pages/Restaurnt.php" style="text-align:right;"class="glyphicon glyphicon-user"> פרופיל אישי</a></li>
         <li><a href="Logout.php" style="text-align:right;"class="glyphicon glyphicon-log-in"> התנתק</a></li>
       </ul>
     </li>';
@@ -123,12 +125,13 @@ if(isset($_POST['submit'])){
           echo"<script>location.href='Index.php'</script>";
         }
         else{
-      
+          
           echo"
             <li><a  style='cursor: pointer;'data-toggle='modal' data-target='#myModal'><img src='Images/user.png' style='height:20px;width:20px;'/>&nbsp כניסת משתמש</a></li>";
         }
+        
       }
-   
+      
       ?>
 
 
@@ -153,12 +156,12 @@ if(isset($_POST['submit'])){
        <form method="post" action="Index.php" >
        <div class="form-group">
       <label for="user">שם משתמש:</label>
-      <input type="text" class="form-control" id="user" name="user">
+      <input type="text" class="form-control" id="user" name="user" required>
       <p style="color:red;" id="USERERROR"><?php $usererror?></p>  
     </div>
     <div class="form-group">
       <label for="password">סיסמה:</label>
-      <input type="password" class="form-control" id="password" name="password" >
+      <input type="password" class="form-control" id="password" name="password" required>
       <p style="color:red;" id="passwordERROR"><?php $passerror ?></p>  
     </div>
     <b><a href="Pages/ForgotPassword.php" style="cursor: pointer;decoration:underline;">שכחתי סיסמה</b></a>

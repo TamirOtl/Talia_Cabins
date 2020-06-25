@@ -81,9 +81,10 @@ if(isset($_POST['submit'])){
 <nav class="navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header  navbar-right">
-      <a class="navbar-brand  " href="../Index.php">בקתות טליה</a>
+    <a  href="../Index.php"><img src="../Images/logo.png" 
+    class="logo"></a>
     </div>
-    <ul class="nav navbar-nav navbar-right">
+    <ul class="nav navbar-nav navbar-right"style="margin-top:4%;">
     
     <li ><a href="ContactUs.php">צור קשר</a></li>
     <li ><a href="recommendation.php">המלצות</a></li>
@@ -277,7 +278,7 @@ try {
     <form method="post" action="ForgotPassword.php" >
     <div class="form-group">
       <label for="email">אימייל:</label><span style='color:red;'>*</span>
-      <input type="email" class="form-control" id="email" name="email" require="required" >
+      <input type="email" class="form-control" id="email" name="email" required >
     </div>
     <button type="submit" id="send1"   class="more_inforamtionClick" name="send1"  style="float:right;" 
       title="מלא את השדה"
